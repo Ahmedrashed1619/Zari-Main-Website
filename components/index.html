@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Zari Main Website </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Zari Main Website">
+    <meta name="kaywords" content="Zari Main Website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="AHMED RASHED" />
+    <!-- Favicon -->
+    <!-- <link href="imgs/favicon.ico" rel="icon"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/skitter.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- ready -->
+    <!-- <div id="ready">
+        <i class="fa fa-spinner fa-5x fa-spin"></i>
+    </div> -->
+
+    <!-- shat link -->
+    <a id="msgBtn" class="position-fixed bottom-0 end-0 translate-middle text-white">
+        <i class="fa-solid fa-comment-dots fs-3 p-3 main-bg rounded-circle"></i>
+    </a>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-nav fixed-top py-2">
+        <div class="container-fluid container-xl special-w">
+            <a class="navbar-brand"><img src="../images/logo w 1.png" alt="zari logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-0 ms-lg-3 py-3 py-lg-0 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../components/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../components/about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle services-link" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../components/services/web-design&develpment.html">WEBSITE DESIGN
+                                    & DEVELOPMENT</a></li>
+                            <li><a class="dropdown-item" href="../components/services/mobile-app-development.html">MOBILE
+                                    APPLICATION DEVELOPMENT</a></li>
+                            <li><a class="dropdown-item" href="../components/services/social-media-marketing.html">Social Media
+                                    Marketing</a></li>
+                            <li><a class="dropdown-item" href="../components/services/technology-consultation.html">Technology
+                                    Consultation</a></li>
+                            <li><a class="dropdown-item" href="../components/services/graphic-designs.html">Graphic Designs</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../components/services/app-testing.html">Applications Testing</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../components/services/clouding-storage.html">Clouding Storage</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../components/services/domain-hosting-services.html">Domain &
+                                    Hosting Services</a></li>
+                            <li><a class="dropdown-item" href="../components/services/csc.html">Cyber Security Consultation</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle products-link" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../components/products/e-commerce.html">E-commerce</a></li>
+                            <li><a class="dropdown-item" href="../components/products/loyalty-system.html">Loyalty System</a></li>
+                            <li><a class="dropdown-item" href="../components/products/pos-system.html">POS System</a></li>
+                            <li><a class="dropdown-item" href="../components/products/zari-salon.html">Zari Salon</a></li>
+                            <li><a class="dropdown-item" href="../components/products/erp-system.html">ERP System</a></li>
+                            <li><a class="dropdown-item" href="../components/products/crm-system.html">CRM System</a></li>
+                            <li><a class="dropdown-item" href="../components/products/real-estate-management.html">Real Estate Management</a></li>
+                            <li><a class="dropdown-item" href="../components/products/restaurants-management.html">Restaurants Management</a></li>
+                            <li><a class="dropdown-item" href="../components/products/zari-expresses.html">Zari Expresses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle projects-link" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../components/projects/zari-on-time.html">Zari On Time</a></li>
+                            <li><a class="dropdown-item" href="../components/projects/zari-jumla.html">Zari Jumla</a></li>
+                            <li><a class="dropdown-item" href="../components/projects/zari-gifts.html">Zari Gifts</a></li>
+                            <li><a class="dropdown-item" href="../components/projects/zari-express-projects.html">Zari Express</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../components/previous.html">Previous</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../components/share.html">Share your Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../components/join.html">Join us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../components/contact.html">Contact us</a>
+                    </li>
+                </ul>
+                <div class="custome d-flex justify-content-center align-items-center pb-4 pb-lg-0">
+                    <div class="language py-2">
+                        <i class="fa-solid fa-globe fs-6"></i>
+                        <select class="py-1" name="language">
+                            <option selected value="English">
+                                English
+                            </option>
+                            <!-- <option value="Arabic">
+                                العربية
+                            </option> -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header id="home" class="home position-relative">
+        <div class="total-header bg-light min-vh-70 d-flex justify-content-center align-items-end">
+            <div class="container-fluid">
+                <div class="row gx-0 gy-4 d-flex justify-content-center align-items-center">
+                    <div class="col-lg-7">
+                        <div class="caption wow fadeInLeft" data-wow-duration="1.5s">
+                            <h5 class="mb-4 main-color fw-bold wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">Growth Your Business</h5>
+                            <h1 class="fw-bold mb-4 wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">We are working to develop your business</h1>
+                            <p class="mb-4 py-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">We at Zari seek to develop business sectors and provide technical and
+                                marketing solutions
+                                Zari IT solutions aim to be successful partners with different business sectors by
+                                harnessing our team, capabilities, and expertise in IT and e-marketing.
+                            </p>
+                            <div class="buttons wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                                <a href="../components/contact.html" class="btn black-btn py-2 px-5">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="img-header wow fadeInRight" data-wow-duration="1.5s">
+                            <img src="../images/home/young-businesswoman-with-co-workers 1.png" class="w-100"
+                                alt="co-workers">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- about -->
+    <section class="home-about py-5">
+        <div class="container">
+            <div class="row gx-0 gy-4 d-flex justify-content-center align-items-center py-5">
+                <div class="col-lg-6">
+                    <div class="imgs-about d-flex justify-content-center align-items-center wow fadeInLeft" data-wow-duration="1.5s">
+                        <img src="../images/home/Ellipse 31.png" class="w-50" alt="Ellipse">
+                        <div class="gb-img d-flex flex-column">
+                            <img src="../images/home/Ellipse 32.png" class="w-60 top-img" alt="Ellipse">
+                            <img src="../images/home/Ellipse 33.png" class="w-60" alt="Ellipse">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="caption-about wow fadeInRight" data-wow-duration="1.5s">
+                        <h2 class="fw-bold mb-2 wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">About Us</h2>
+                        <h3 class="mb-3 main-color fw-bold wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">Zari Solutions</h3>
+                        <p class="mb-3 py-1 wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">Zari solution is a Saudi company founded in 2014 in Medina and is one of
+                            the group companies established in various fields. Zari's solutions expanded in 2021 to be
+                            present in Egypt today because of our strong belief in the size of the Egyptian market. We
+                            will be present in the UAE to achieve what we aspire to through these expansions from a
+                            vision for the future.
+                            we in Zari have a multinational team with global expertise that has come together to
+                            contribute to the technology industry, information technology, and digital solutions
+                        </p>
+                        <div class="buttons wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <a href="../components/about.html" class="btn black-btn py-2 px-5">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="home-services pb-5">
+        <div class="container">
+            <div class="row gx-0 gy-4 d-flex justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="main-title text-center pt-3 w-75 mx-auto wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <h2 class="fw-bold fs-1 mb-2">Our Services</h2>
+                        <p class="mx-auto">Creative Solutions, Creative Results.</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInLeft" data-wow-duration="1.5s">
+                    <div class="service service-1 ps-4 mb-5">
+                        <h3 class="fw-bold mb-4 second-color">WEBSITE DESIGN & DEVELOPMENT</h3>
+                        <p>The best way to evaluate our expertise in web app design services is to check out the case
+                            studies where we show how our research-driven design approach helped our client text-centers
+                            solve real business problems.</p>
+                    </div>
+                    <div class="service service-2 ps-4">
+                        <h3 class="fw-bold mb-4 second-color">MOBILE APPLICATION DEVELOPMENT</h3>
+                        <p>We offer a full cycle of application design, integration and management services. Whether it
+                            is a consumer oriented app or a transformative enterprise-class solution, the company leads
+                            the entire mobile app development process from ideation and concept to delivery, and to
+                            ongoing ongoing support.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="skitter bg-transparent skitter-large wow fadeInRight" data-wow-duration="1.5s">
+                        <ul>
+                            <li>
+                                <a href="#cut"><img src="../images/home/website design.png" class="cut" /></a>
+                                <div class="label_text">
+                                    <p>cut</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#swapBlocks"><img src="../images/home/mobile app.png" class="swapBlocks" /></a>
+                                <div class="label_text">
+                                    <p>swapBlocks</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="buttons text-center">
+                    <a href="../components/services.html" class="btn second-btn py-2 px-5 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">All Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section class="home-projects py-5">
+        <div class="row gx-0 gy-4">
+            <div class="col-12">
+                <div class="main-title text-center pt-3 w-75 mx-auto wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <h2 class="fw-bold fs-1 mb-2">Our Projects</h2>
+                    <p class="mx-auto pb-0 mb-0">Let’s see our Projects</p>
+                </div>
+            </div>
+            <div class="w-85 mx-auto pb-3">
+                <div class="cont-imgs">
+                    <div class="imgs d-flex justify-content-center align-items-start">
+                        <div class="img-group d-flex flex-column text-center wow fadeInRight" data-wow-duration="1.5s">
+                            <img src="../images/home/iPhone 12 Pro (1).png" class="w-75 mx-auto mb-3"
+                                alt="zari on time">
+                            <h4 class="fw-bold">Zari On Time</h4>
+                        </div>
+                        <div class="img-group d-flex flex-column text-center">
+                            <img src="../images/home/iPhone 12 Pro (2).png" class="w-75 mx-auto mb-3 jomla wow fadeInDown" data-wow-duration="1.5s"
+                                alt="zari jomla">
+                            <h4 class="fw-bold">Zari Jomla</h4>
+                        </div>
+                        <div class="img-group d-flex flex-column text-center">
+                            <img src="../images/home/iPhone 12 Pro (3).png" class="w-75 mx-auto mb-3 gift wow fadeInUp" data-wow-duration="1.5s"
+                                alt="zari gifts">
+                            <h4 class="fw-bold">Zari Gifts</h4>
+                        </div>
+                        <div class="img-group d-flex flex-column text-center wow fadeInLeft" data-wow-duration="1.5s">
+                            <img src="../images/home/Group 32.png" class="w-75 mx-auto mb-3" alt="zari Express">
+                            <h4 class="fw-bold">Zari Express</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="show-details mt-5">
+                <div class="w-85 mx-auto">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-8">
+                            <div class="caption-details wow fadeInLeft" data-wow-duration="1.5s">
+                                <h2 class="fw-bold mb-3 text-white wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">Zari Express</h2>
+                                <p class="mb-3 py-1 lh-base text-white wow fadeIn" data-wow-duration="1s" data-wow-delay="1s"><span>Zari Express</span> is one of the projects
+                                    of Zari Company, a Saudi-Egyptian company
+                                    Present in Saudi Arabia since 2014.
+                                    <span>Zari Express</span> aims to spread the Egyptian industry in
+                                    Saudi Arabia and the Gulf.
+                                </p>
+                                <div class="buttons wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                                    <a target="_blank" href="../components/projects/zari-express.html"
+                                        class="btn btn-light py-2 px-5 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="img-details text-center wow fadeInRight" data-wow-duration="1.5s">
+                                <img src="../images/home/Group 32.png" class="mx-auto" alt="zari Express">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- clients -->
+    <section class="home-clients py-4">
+        <div class="container">
+            <div class="row gx-0 gy-5 d-flex justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="main-title text-center pt-3 w-75 mx-auto">
+                        <p class="mx-auto text-black fw-bold fs-5">Trusted by over <span class="main-color">+550</span>
+                            happy client text-centers, Including.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <div class="client text-center">
+                        <img src="../images/home/7.png" alt="go daddy" class="w-75 mx-auto">
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <div class="client text-center">
+                        <img src="../images/home/5.png" alt="2010" class="w-75 mx-auto">
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <div class="client text-center">
+                        <img src="../images/home/4.png" alt="stc" class="w-75 mx-auto">
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <div class="client text-center">
+                        <img src="../images/home/3.png" alt="ovh cloud" class="w-75 mx-auto">
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <div class="client text-center">
+                        <img src="../images/home/2 (1).png" alt="oddo" class="w-75 mx-auto">
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-4">
+                    <div class="client text-center">
+                        <img src="../images/home/1.png" alt="host gator" class="w-75 mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- previous -->
+    <section class="home-previous py-5">
+        <div class="container">
+            <div class="row gx-4 gy-5 d-flex justify-content-center align-items-center">
+                <div class="col-12">
+                    <div class="main-title text-center pt-3 w-75 mx-auto wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <h2 class="fw-bold mb-2">Our Previous Work</h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="previo wow fadeInLeft" data-wow-duration="1.5s">
+                        <img src="../images/home/Tawseel 2.png" alt="Tawseel" class="mx-auto mb-5">
+                        <h5 class="fw-bold">Online food ordering system</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="previo wow fadeInDown" data-wow-duration="1.5s">
+                        <img src="../images/home/Tawseel 3.png" alt="Tawseel" class="mx-auto mb-5">
+                        <h5 class="fw-bold">Retail and Finance System</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="previo wow fadeInDown" data-wow-duration="1.5s">
+                        <img src="../images/home/Tawseel 4.png" alt="Tawseel" class="mx-auto mb-5">
+                        <h5 class="fw-bold">Mobile app to order repair of anything in the house</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="previo wow fadeInRight" data-wow-duration="1.5s">
+                        <img src="../images/home/edita 1.png" alt="edita" class="mx-auto mb-4">
+                        <h5 class="fw-bold">fleet management system</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="previo wow fadeInLeft" data-wow-duration="1.5s">
+                        <img src="../images/home/Avaris 1.png" alt="Avaris" class="mx-auto mb-4">
+                        <h5 class="fw-bold">Customer Relationship Management System - Mobile Application </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="previo wow fadeInUp" data-wow-duration="1.5s">
+                        <img src="../images/home/Alfa Romeo 1.png" alt="Alfa Romeo" class="mx-auto mb-5">
+                        <h5 class="fw-bold">auto calling system</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="previo wow fadeInUp" data-wow-duration="1.5s">
+                        <img src="../images/home/Slaughter Model 1.png" alt="Slaughter Model" class="mx-auto mb-4">
+                        <h5 class="fw-bold">E-commerce mobile app to buy livestock</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="previo wow fadeInRight" data-wow-duration="1.5s">
+                        <img src="../images/home/Arabic Textile 1.png" alt="Tawseel" class="mx-auto mb-4">
+                        <h5 class="fw-bold">Accounting and quality system</h5>
+                    </div>
+                </div>
+                <div class="buttons text-center mt-5">
+                    <a href="../components/previous.html" class="btn second-btn py-2 px-5 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">All Previous Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel -->
+    <section class="home-works-carousel py-5">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide pt-5" data-bs-ride="carousel">
+
+                <div
+                    class="carousel-indicators position-static d-flex justify-content-between mt-2 mb-0 position-relative">
+                    <img src="../images/home/Vector 5 (1).png"
+                        class="vector position-absolute bottom-0 start-0 end-0 w-100" alt="vector">
+                    <div class="indicator-item align-self-end indicator-side indicator-side-first position-relative">
+                        <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="life"
+                            aria-label="Slide 1" src="../images/home/Alfa Romeo 2.png" alt="Alfa Romeo">
+                    </div>
+                    <div class="indicator-item align-self-center indicator-deep indicator-deep-first position-relative">
+                        <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            class="attraction" aria-label="Slide 2" src="../images/home/Texmar 2.png" alt="Texmar">
+                    </div>
+                    <div class="indicator-item indicator-center position-relative">
+                        <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            class="active spa" aria-label="Slide 3" src="../images/home/Texmar 1.png" alt="Texmar">
+                    </div>
+                    <div
+                        class="indicator-item align-self-center indicator-deep indicator-deep-second position-relative">
+                        <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            class="attraction" aria-label="Slide 4" src="../images/home/Chrysler 1.png" alt="Chrysler">
+                    </div>
+                    <div class="indicator-item align-self-end indicator-side indicator-side-second position-relative">
+                        <img type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="life"
+                            aria-label="Slide 5" src="../images/home/dodge 1.png" alt="dodge">
+                    </div>
+                </div>
+
+                <div class="carousel-inner mt-0">
+                    <div class="carousel-item">
+                        <h3>Alfa Romeo</h3>
+                        <blockquote> <i class="fa-solid fa-quote-left"></i> Aenean sit amet est orci. Aenean at nisi
+                            eget nulla lobortis commodo. Nam eget lorem in ex aliquam dapibus. <i
+                                class="fa-solid fa-quote-right"></i> </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Tawseel</h3>
+                        <blockquote> <i class="fa-solid fa-quote-left"></i> Suspendisse non velit lacus. Mauris
+                            efficitur lorem a justo semper, ut suscipit ligula malesuada. Donec dui nulla. <i
+                                class="fa-solid fa-quote-right"></i> </blockquote>
+                    </div>
+                    <div class="carousel-item active">
+                        <h3>Texmar</h3>
+                        <blockquote> <i class="fa-solid fa-quote-left"></i> Vestibulum lectus massa, volutpat ut
+                            tristique nec, volutpat in turpis. In vehicula tempus odio. Nullam enim ligula. <i
+                                class="fa-solid fa-quote-right"></i> </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Chrysler</h3>
+                        <blockquote> <i class="fa-solid fa-quote-left"></i> Nunc accumsan finibus sollicitudin. Integer
+                            malesuada purus sapien, sit amet volutpat sem fringilla ut. Proin viverra scelerisque
+                            mollis. <i class="fa-solid fa-quote-right"></i> </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Dodge</h3>
+                        <blockquote> <i class="fa-solid fa-quote-left"></i> Fusce euismod eget nulla a tempus.
+                            Pellentesque in varius metus. Fusce iaculis cursus ante, vel vestibulum dui sagittis vitae.
+                            <i class="fa-solid fa-quote-right"></i>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <i class="fa-solid fa-angle-left fs-3 " aria-hidden="true"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <i class="fa-solid fa-angle-right fs-3" aria-hidden="true"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- share -->
+    <section class="home-share py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12">
+                    <div class="main-title mb-4 text-center w-75 mx-auto wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">>
+                        <h2 class="fw-bold">Share your project with us</h2>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="part wow fadeInLeft" data-wow-duration="1.5s">
+                        <img src="../images/home/Rectangle 12.png" class="w-100 mb-3" alt="Rectangle">
+                        <div class="caption-part">
+                            <p class="text-black fs-5 lh-sm">Request your technical project from our team and get a
+                                confidentiality agreement</p>
+                            <div class="buttons mt-2">
+                                <a href="../components/contact.html" class="btn second-btn py-2 px-5">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="part wow fadeInUp" data-wow-duration="1.5s">
+                        <img src="../images/home/Rectangle 12 (1).png" class="w-100 mb-3" alt="Rectangle">
+                        <div class="caption-part">
+                            <p class="text-black fs-5 lh-sm">Request one of our cleaning services and our team will
+                                contact you</p>
+                            <div class="buttons second-card">
+                                <a href="../components/contact.html" class="btn second-btn py-2 px-5">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="part wow fadeInRight" data-wow-duration="1.5s">
+                        <img src="../images/home/Rectangle 12 (2).png" class="w-100 mb-3" alt="Rectangle">
+                        <div class="caption-part">
+                            <p class="text-black fs-5 lh-sm">Request your technical or marketing advice</p>
+                            <div class="buttons last-card">
+                                <a href="../components/contact.html" class="btn second-btn py-2 px-5">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- join -->
+    <section class="home-join py-5 mb-4">
+        <div class="container-fluid">
+            <div class="row gx-0 gy-5 d-flex justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <div class="join-caption wow fadeInLeft" data-wow-duration="1.5s">
+                        <h2 class="fw-bold mb-4 wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="0.5s">Join US</h2>
+                        <p class="mb-4 py-1 lh-base wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">Zari solutions are a starting company and because we care about the
+                            team And develop it and they are the reason for our success
+                            and our start our ambition has no limits and is the essence of our teamwork.
+                        </p>
+                        <div class="buttons wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <a href="../components/join.html" class="btn black-btn py-2 px-5">Join us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="join-img wow fadeInRight" data-wow-duration="1.5s">
+                        <img src="../images/home/Vector 7 (1).png" class="w-100" alt="join">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer" class="footer py-5 bg-black position-relative">
+        <a id="btnTopFooter" class="position-absolute top-0 end-0 translate-middle text-white"><i
+                class="fa-solid fa-chevron-up fs-3 p-2 main-bg rounded-circle"></i></a>
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="logo-footer">
+                        <img src="../images/home/2 (2).png" class="w-50" alt="zari logo">
+                        <p>Zari is a Saudi-Egyptian company among a group of companies operating in more than one field
+                            in Saudi Arabia and the Middle East.</p>
+                        <h5 class="mb-4">Follow us </h5>
+                        <div class="icons-footer d-flex align-items-center">
+                            <a target="_blank" href="https://www.facebook.com/ZARISolutionksa"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a target="_blank" href="https://twitter.com/SolutionZari"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/zarisolutionksa/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://wa.me/+966566770235"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/zari-solution-ksa-12717623b/"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a target="_blank" href="https://www.tiktok.com/@zarisolutionksa"><img
+                                    src="../images/home/tik-tok.png" alt="tik-tok"></a>
+                            <a target="_blank"
+                                href="https://www.snapchat.com/add/zari_solutions?share_id=osFpGeXWnlE&locale=en-US"><img
+                                    src="../images/home/snapchat.png" alt="snapchat"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="navigate ">
+                        <h5 class="mb-5">Explore</h5>
+                        <div class="links-navigate d-flex justify-content-center flex-column">
+                            <a class="active" href="../components/index.html">Home</a>
+                            <a href="../components/about.html">ABOUT</a>
+                            <a href="../components/services.html">Services</a>
+                            <a href="../components/products.html">Products</a>
+                            <a href="../components/projects.html">Projects</a>
+                            <a href="../components/previous.html">Previous</a>
+                            <a href="../components/contact.html">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <div class="navigate ">
+                        <h5 class="mb-5">Resources</h5>
+                        <div class="links-navigate d-flex justify-content-center flex-column">
+                            <a href="../components/join.html">Career</a>
+                            <a href="../components/faq.html">FAQ</a>
+                            <a href="../components/privacy-policy.html">Privacy Policy</a>
+                            <a href="../components/terms-of-service.html">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="navigate">
+                        <h5 class="mb-5 contact">Contact us</h5>
+                        <div class="d-flex justify-content-start align-items-center mb-2">
+                            <span class="me-3"><i class="fa-solid fa-location-dot"></i></span>
+                            <p class="lh-sm ksa">7865 King Abdullah Bin - Abdulaziz Road - Jasham - AL-Madina - KSA</p>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center mb-3">
+                            <span class="me-3"><i class="fa-solid fa-location-dot"></i></span>
+                            <p class="lh-sm egy">9 Street Saeed Zakaria - Nasr City - Cairo - Egypt</p>
+                        </div>
+                        <div class="phone d-flex justify-content-start align-items-center mb-3">
+                            <span class="me-3"><i class="fa-solid fa-phone"></i></span>
+                            <a target="_blank" href="tel:+966920024403"> +966 92 002 4403</a>
+                        </div>
+                        <div class="phone d-flex justify-content-start align-items-center mb-3">
+                            <span class="me-3"><i class="fa-solid fa-phone"></i></span>
+                            <a target="_blank" href="tel:+966566770235"> +966 56 677 0235</a>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <span class="me-3"><i class="fa-solid fa-envelope"></i></span>
+                            <a target="_blank" href="https://info@zarisolution.com/"> info@zarisolution.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- js files -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/jquery.skitter.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
